@@ -12,3 +12,6 @@ const repeat = function* (x) {
 
 for (const x of repeat('git is cool'));
 
+// cheating
+
+const stuff_the_event_loop => () => setImmediate(stuff_the_event_loop);
